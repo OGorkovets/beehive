@@ -65,6 +65,15 @@
                  </tr>        
 				<?php endforeach; ?>
 			  </table>
+					<div id="download" class="col-md-3">
+						<a href="/IT328/beehive/ExpToExcel/toexcel.php?id=all" class="downl">Download table in Excel file</a>
+							
+					</div>
+					<script>
+						$(document).ready(function(){						
+						});		
+					</script>
+							
 			</section>
 		</div>
 		<div class="container">

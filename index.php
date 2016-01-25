@@ -30,6 +30,7 @@
 								<li><a href="/" <?php if ($_SERVER['PHP_SELF'] == '/' || $_SERVER['PHP_SELF'] == '/index.php') echo "class='active'";?>>Home</a></li>
 								<li><a href="#">About Us</a></li>
 								<li><a href="contacts.php" <?php if ($_SERVER['PHP_SELF'] == 'contacts.php') echo "class='active'";?>>Contacts</a></li>
+								<li><a href="admin.php" target="_self" >Admin Panel</a></li>
 							</ul>
 						</nav>
 					</div>
